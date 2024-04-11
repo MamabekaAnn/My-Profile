@@ -3,46 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Weather Application</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Professional Profile</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div id="app-container">
-      <header>
-        <form>
-          <input
-            class="search-input"
-            type="search"
-            placeholder="Enter a city..."
-            required
-          />
-          <input class="search-button" type="submit" value="Search" />
-        </form>
-      </header>
-      <main>
-        <div class="current-weather">
-          <div>
-            <h1>Paris</h1>
-            <p class="weather-details">
-              <span class="weather-time">Saturday 15:32</span>
-              <span class="weather-condition">Moderate rain</span> <br />
-              Humidity: <strong class="weather-humidity">87%</strong>, Wind:
-              <strong class="weather-wind">7.2km/h</strong>
-            </p>
-          </div>
-          <div class="weather-temperature">
-            <span class="sun-icon">☀️</span> 24°C
-          </div>
-        </div>
-      </main>
-      <footer>
+    <div class="container">
+      <div class="section profile-bg">
+        <h1>Mamabeka Anna Magwete</h1>
         <p>
-          This project was coded by
-          <a href="#" target="_blank">Mamabeka Ann</a> and is
-          <a href="#" target="_blank"> on GitHub</a>
+          A proficient and flexible 30 year old woman, excelling in the
+          technology sector with a focus on front-end development. Possessing a
+          strong educational foundation in Information Technology and Computer
+          Science, augmented by specialized training in programming languages
+          and web development frameworks.
         </p>
-      </footer>
+      </div>
+
+      <img
+        src="src/image/Mamabeka.jpg"
+        alt="Your Image"
+        style="max-width: 100%; width: 300px"
+      />
+      <div class="section" id="objective">
+        <h2>Objective</h2>
+        <p>
+          I aim to use my skills in front-end development and enthusiasm for
+          crafting creative digital experiences to make meaningful contributions
+          to dynamic projects and progress in my tech career. I'm eager to
+          collaborate with skilled teams and deliver solutions that push the
+          limits of web development.
+        </p>
+      </div>
     </div>
-    <script src="script.js"></script>
+    <div class="navigation">
+      <a href="page2.html">Next Page: Education and Skills</a>
+    </div>
   </body>
 </html>

@@ -1,0 +1,91 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Light gray background */
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* White background */
+}
+
+.section {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-bg {
+  background-color: #4caf50; /* Green background */
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+}
+
+h2 {
+  margin-top: 0;
+  color: #444;
+}
+
+h3 {
+  margin-top: 0;
+  color: #555;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.navigation-container {
+  background-color: #4caf50; /* Green background */
+  padding: 10px; /* Padding for space */
+  border-radius: 8px; /* Rounded corners */
+  margin-top: 20px; /* Spacing from the content */
+  text-align: center; /* Center items horizontally */
+}
+
+.navigation {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center items horizontally */
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff; /* White text */
+  padding: 10px 20px; /* Padding for space */
+  border-radius: 30px; /* Rounded corners */
+  margin: 0 5px; /* Spacing between links */
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #388e3c; /* Dark green background */
+}
+
+.navigation a:hover {
+  background-color: #1b5e20; /* Darker green background on hover */
+}
+
+img {
+  display: block; /* Ensure the image is displayed as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
