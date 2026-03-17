@@ -1,45 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Professional Profile</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <!-- Bing Webmaster Tools Verification Meta Tag -->
-    <meta name="msvalidate.01" content="BE8629F5EFAEC04DC83C4251FC96916E" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="section profile-bg">
-        <h1>Mamabeka Anna Magwete</h1>
-        <p>
-          A proficient and flexible 30-year-old woman, excelling in the
-          technology sector with a focus on front-end development. Possessing a
-          strong educational foundation in Information Technology and Computer
-          Science, augmented by specialized training in programming languages
-          and web development frameworks.
-        </p>
-        <img
-          src="src/image/Mamabeka.jpg"
-          alt="Professional profile picture of Mamabeka Anna Magwete"
-          style="max-width: 100%; width: 300px"
-        />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mamabeka Ann | Resume</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+    }
+
+    .resume {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      background: linear-gradient(135deg, #044916, #044916);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: contain;
+  border: 4px solid white;
+  margin-bottom: 10px;
+  background-color: #044916;
+    }
+
+    .header h1 {
+      margin: 10px 0 5px;
+    }
+
+    .header p {
+      margin: 0;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    .content {
+      padding: 30px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .section h2 {
+      margin-bottom: 10px;
+      color: #044916;
+      border-left: 4px solid #044916;
+      padding-left: 10px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #e8f5e9;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      background: #f1f1f1;
+    }
+
+    @media (max-width: 700px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="resume">
+  <div class="header">
+    <img src="Mamabeka.png" alt="Mamabeka Ann">
+    <h1>Mamabeka Ann Magwete</h1>
+    <p>Front-End Developer | IT Support Specialist</p>
+  </div>
+
+  <div class="content">
+
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <p>
+        A dedicated and adaptable IT professional with skills in front-end development and technical support. 
+        Experienced in building responsive web applications and providing IT support services including asset tracking, troubleshooting, and system maintenance. 
+        Passionate about creating user-friendly digital solutions and continuously improving technical skills.
+      </p>
+    </div>
+
+    <div class="grid">
+      <div class="section">
+        <h2>Education & Training</h2>
+        <p><strong>Matric</strong> – DG Tsebe (2013)</p>
+        <p><strong>NQF 4 IT Support Learnership</strong> – Limpopo Connexion (Aug 2023 – Jul 2024)</p>
+        <p><strong>NQF 5 IT System Support</strong> (Aug 2024 – Jul 2025)</p>
+        <p><strong>SheCodes Basic Workshop:</strong> Learned HTML, CSS, and JavaScript basics</p>
+        <p><strong>SheCodes Plus:</strong> Advanced JavaScript, modern coding tools, building websites with live data using APIs</p>
       </div>
 
-      <div class="section" id="objective">
-        <h2>Objective</h2>
-        <p>
-          I aim to use my skills in front-end development and enthusiasm for
-          crafting creative digital experiences to make meaningful contributions
-          to dynamic projects and progress in my tech career. I'm eager to
-          collaborate with skilled teams and deliver solutions that push the
-          limits of web development.
-        </p>
+      <div class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">Responsive Design</span>
+          <span class="skill">IT Support</span>
+          <span class="skill">System Troubleshooting</span>
+          <span class="skill">Network Setup</span>
+          <span class="skill">Asset Management</span>
+          <span class="skill">Team Collaboration</span>
+          <span class="skill">Customer Support</span>
+        </div>
       </div>
     </div>
 
-    <nav class="navigation">
-      <a href="page2.html">Next Page: Education and Skills</a>
-    </nav>
-  </body>
+    <div class="section">
+      <h2>Experience</h2>
+      <ul>
+        <li>Developed and deployed a weather web application providing real-time data.</li>
+<li>Built a personal portfolio website to showcase projects and skills.</li>
+<li>Provided IT support during my learnerships, including device setup, maintenance, troubleshooting, and network assistance.</li>
+<li>Performed asset tagging and tracking in technical environments.</li>
+<li>Collaborated effectively in team environments, assisting colleagues and ensuring smooth project workflows.</li>
+    </div>
+
+   <div class="section">
+  <h2>Projects</h2>
+  <ul>
+    <li><a href="https://houseoflinks.co.za" target="_blank">https://houseoflinks.co.za</a></li>
+    <li><a href="https://mamabekaprofile.netlify.app/" target="_blank">https://mamabekaprofile.netlify.app/</a></li>
+    <li><a href="https://mamabeka-weatherapp.netlify.app/" target="_blank">https://mamabeka-weatherapp.netlify.app/</a></li>
+    <li><a href="https://littlecubsdaycare.netlify.app/" target="_blank">https://littlecubsdaycare.netlify.app/</a></li>
+  </ul>
+</div>
+
+  </div>
+
+  <div class="footer">
+    © 2025 Mamabeka Ann | Available for IT & Web Development Opportunities
+  </div>
+</div>
+
+</body>
 </html>
